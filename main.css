@@ -667,24 +667,51 @@ nav {
   background-image: url("/FE/FE01-html/images/_진격의\ 거인_\ 정주행\ 프로모션\ \(2_14_2_28\).png");
   background-size: cover;
   border-radius: 6px;
+  padding: 20px;
+  box-sizing: border-box;
+  position: absolute;
 }
 .recommendEventController {
   height: 27px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
-  background-color: #ffffff;
+  left: 20px;
+  bottom: 27px;
+  /* background-color: #ffffff; */
 }
 .recommendEventPrevBtn,
 .recommendEventNextBtn {
   width: 30px;
   background-size: cover;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.recommendEventPrevBtn {
-  background-image: url("/FE/FE01-html/images/previous\ button.png");
-}
-.recommendEventNextBtn {
-  background-image: url("/FE/FE01-html/images/next\ button.png");
-}
+
 .recommendEventCount {
   width: 35px;
+  height: 100%;
+  color: #eee;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+}
+.gotoApp {
+  width: 720px;
+  height: 70px;
+  padding: 0;
+  background: #ffd200;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.gotoAppImg {
+  width: 504px;
+  background-size: contain;
 }
