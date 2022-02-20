@@ -2,6 +2,11 @@ html {
   margin: 0;
   padding: 0;
 }
+.centerSort {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 body {
   width: 100%;
   background-color: #eee;
@@ -714,4 +719,29 @@ nav {
 .gotoAppImg {
   width: 504px;
   background-size: contain;
+}
+#footer {
+  width: 720px;
+  height: 130px;
+  justify-content: space-between;
+  padding: 60px 0;
+  font-size: 14px;
+  color: #bdbdbd;
+  font-weight: bold;
+}
+.footerLeft > * {
+  margin: 5px 0;
+}
+/* .footerRight {
+  width: 55px;
+} */
+
+.copyRightImg {
+  height: 55px;
+  width: 55px;
+  background-size: cover;
+}
+.copyRightOk {
+  font-size: 12px;
+  color: #a8a8a8;
 }
