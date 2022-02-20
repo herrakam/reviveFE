@@ -56,9 +56,6 @@ nav {
   height: 33.2px;
   border-radius: 33.2px;
   border: 1px solid #cfcfcf;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .searchInput {
   width: 136px;
@@ -75,9 +72,7 @@ nav {
   height: 20px;
 }
 .headerButtonWrap {
-  display: flex;
   justify-content: right;
-  align-items: center;
 }
 .headerButtonWrap > * {
   color: #999;
@@ -100,9 +95,7 @@ nav {
 .navWrap {
   height: 68px;
   width: 720px;
-  display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 .navWrap > * {
   width: calc(100% / 6);
@@ -206,7 +199,6 @@ nav {
 }
 .eventInfoWrap {
   height: 29px;
-  display: flex;
   justify-content: space-between;
   align-items: flex-end;
   margin: 12px 0 0;
@@ -260,9 +252,6 @@ nav {
   height: 40px;
   width: 100%;
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #ffd200;
 }
 .imgCopy {
@@ -270,10 +259,7 @@ nav {
 }
 .eventButtons {
   height: 161px;
-  display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   background-color: #ffffff;
   box-sizing: border-box;
   padding: 20px;
@@ -308,9 +294,6 @@ nav {
   height: 24px;
   border-radius: 33px;
   background-color: #ffd200;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 0 0 0 10px;
 }
 /* .todayNew {
@@ -429,9 +412,6 @@ nav {
 .slideBtn {
   width: 85px;
   height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .slideAdImg {
   width: 550px;
@@ -491,9 +471,7 @@ nav {
   height: 30px;
   box-sizing: border-box;
   padding: 0 8px;
-  display: flex;
   justify-content: space-between;
-  align-items: center;
   background-color: #242526;
   border-radius: 0 0 8px 8px;
 }
@@ -557,9 +535,7 @@ nav {
 }
 .expectToonInfoWrap {
   height: 20px;
-  display: flex;
   justify-content: left;
-  align-items: center;
 }
 .expectToonInfoWrap > * {
   height: 20px;
@@ -678,9 +654,6 @@ nav {
 }
 .recommendEventController {
   height: 27px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
   left: 20px;
   bottom: 27px;
@@ -691,9 +664,6 @@ nav {
   width: 30px;
   background-size: cover;
   height: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .recommendEventCount {
@@ -702,9 +672,6 @@ nav {
   color: #eee;
   font-size: 18px;
   font-weight: bold;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   opacity: 0.5;
 }
 .gotoApp {
@@ -722,7 +689,6 @@ nav {
 }
 #footer {
   width: 720px;
-  height: 130px;
   justify-content: space-between;
   padding: 60px 0;
   font-size: 14px;
